@@ -1,0 +1,19 @@
+.logo {
+    width: 200px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: red !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: red !important;
+}
+
+#get-quote-bg {
+    background-color: red !important;
+    color: white;
+    border-radius: 20px;
+    width: 80%;
+    margin: 2px;
+}
