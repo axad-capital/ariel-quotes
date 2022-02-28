@@ -5,7 +5,7 @@ import HealthInsurance from './health-insurance.png';
 import HealthCare from './healthcare.png';
 
 import AIG from './AIG-logo.png';
-import Globe from './GlobeLife-logo.png';
+import GlobeLife from './GlobeLife-logo.png';
 import LFG from './LFG-logo.png';
 import LGWhite from './LG-white-logo.png';
 import MoO from './MoO_Horiz_white_rev_color.png';
@@ -20,7 +20,7 @@ const HomeComp = () => {
         <div className='home-header-info'>
           <p >You're just a few steps away from finding out how much you could save.</p>
           <h1>OVER TWO MILLION FAMILIES TRUST ARIELQUOTE</h1>
-          <h5>Life Insurance Starting at Under $1 a day.</h5>
+          <h3>Life Insurance Starting at Under $1 a day.</h3>
           <button className='free-quote-btn'>Get Your Free Quote</button>
         </div>
       </header>
@@ -30,7 +30,7 @@ const HomeComp = () => {
             <img src={AIG} alt="" />
           </div>
           <div className="card">
-            <img src={Globe} alt="" />
+            <img src={GlobeLife} alt="" />
           </div>
           <div className="card">
             <img src={LFG} alt="" />

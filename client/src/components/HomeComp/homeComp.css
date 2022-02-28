@@ -13,9 +13,10 @@
 }
 .home-header-info h1 {
     font-weight: 600;
+    font-size: 40px;
 }
 
-.home-header-info p, h5 {
+.home-header-info p, h3 {
     color: red;
     font-weight: 600;
     font-size: 13px;
@@ -30,7 +31,25 @@
     margin-top: 7px;
 }
 
+.home-icons section {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 .card {
-    background-color: rgb(155, 155, 155) !important;
     width: 100px;
+    height: 100px;
+    border: none !important;
+    position: relative;
+}
+
+.card img {
+    filter:brightness(0);
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(0, -50%);
 }
