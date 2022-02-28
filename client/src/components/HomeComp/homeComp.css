@@ -1,0 +1,36 @@
+.home-header {
+    background-image: url('https://www.arielquotes.com/wp-content/uploads/2021/09/Untitled-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    font-family: "Montserrat", Sans-serif;
+}
+
+.home-header-info {
+    width: 500px;
+    padding: 65px;
+    margin-left: 50%;
+}
+.home-header-info h1 {
+    font-weight: 600;
+}
+
+.home-header-info p, h5 {
+    color: red;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.free-quote-btn {
+    padding: 8px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #273043;
+    margin-top: 7px;
+}
+
+.card {
+    background-color: rgb(155, 155, 155) !important;
+    width: 100px;
+}
