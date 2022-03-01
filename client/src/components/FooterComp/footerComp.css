@@ -1,0 +1,25 @@
+.main-footer {
+    background-color: rgb(231, 231, 231);
+}
+.footer-container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(145, 145, 145);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+}
