@@ -24,7 +24,7 @@ const Nav = () => {
                                     <li><Link to='/life-insurance' className="dropdown-item">Overview</Link></li>
                                     <li><Link to='/life-insurance/term-view' className="dropdown-item">Term View</Link></li>
                                     <li><Link to='/life-insurance/final-expense' className="dropdown-item">Final Expense</Link></li>
-                                    <li><Link to='/life-insurance/get-quotes' className="dropdown-item" id='get-quote-bg'>Get Quotes</Link></li>
+                                    <li><Link to='/life-insurance-quote' className="dropdown-item" id='get-quote-bg'>Get Quotes</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
@@ -34,7 +34,7 @@ const Nav = () => {
                                     <li><Link to='/medicare' className="dropdown-item">Overview</Link></li>
                                     <li><Link to='/medicare/medicare-supplement' className="dropdown-item">Medicare Supplement</Link></li>
                                     <li><Link to='/medicare/medicare-advantage' className="dropdown-item">Medicare Advantage</Link></li>
-                                    <li><Link to='/medicare/get-quotes' className="dropdown-item" id='get-quote-bg'>Get Quotes</Link></li>
+                                    <li><Link to='/medicare-quote' className="dropdown-item" id='get-quote-bg'>Get Quotes</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item">

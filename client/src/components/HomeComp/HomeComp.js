@@ -18,10 +18,6 @@ const HomeComp = () => {
 
   const [equ, setEqu] = useState('+');
 
-  function getQuote() {
-    window.location.href = '/get-a-quote'
-  }
-
   return (
     <div>
 
@@ -30,7 +26,7 @@ const HomeComp = () => {
           <p >You're just a few steps away from finding out how much you could save.</p>
           <h1>OVER TWO MILLION FAMILIES TRUST ARIELQUOTE</h1>
           <h3>Life Insurance Starting at Under $1 a day.</h3>
-          <button onClick={getQuote} className='free-quote-btn'>Get Your Free Quote</button>
+          <button onClick={() => window.location.href = '/get-a-quote'} className='free-quote-btn'>Get Your Free Quote</button>
         </div>
       </header>
 
@@ -87,7 +83,7 @@ const HomeComp = () => {
           <h3>WE DO THE SHOPPING.</h3>
           <h3>YOU DO THE SAVING.</h3>
           <p>Our process is simple, hassle-free and takes just minutes. We instantly shop and compare hundreds of options from highly rated, trusted insurance brands to find the best rates available for you.</p>
-          <button onClick={getQuote} className='free-quote-btn'>Get Your Free Quote</button>
+          <button onClick={() => window.location.href = '/get-a-quote'} className='free-quote-btn'>Get Your Free Quote</button>
         </div>
       </div>
 
