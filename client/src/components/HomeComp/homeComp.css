@@ -1,0 +1,144 @@
+.home-header {
+    background-image: url('https://www.arielquotes.com/wp-content/uploads/2021/09/Untitled-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    font-family: "Montserrat", Sans-serif;
+}
+
+.home-header-info {
+    width: 500px;
+    padding: 65px;
+    margin-left: 50%;
+}
+.home-header-info h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.home-header-info p, h3 {
+    color: red;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.free-quote-btn {
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(255, 0, 98);
+    margin-top: 7px;
+    border: none;
+}
+
+.free-quote-btn:hover {
+    background-color: rgb(253, 91, 153);
+}
+
+.home-icons section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    margin: 50px auto;
+}
+
+.card-icons {
+    width: 100px;
+    height: 100px;
+    border: none !important;
+    position: relative;
+}
+
+.icons {
+    filter:brightness(0);
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(0, -50%);
+}
+
+.we-can-help {
+    text-align: center;
+    padding: 50px;
+}
+
+.we-can-help h2 {
+    color: rgb(255, 0, 98);
+}
+
+.we-can-help > p {
+    font-weight: 300;
+    color: rgb(105, 105, 105);
+}
+
+.we-can-help-cards {
+    width: 50%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.we-can-help-cards div {
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.we-can-help-cards div:hover {
+    background-color: rgb(94, 118, 255);
+    color: white;
+}
+
+.we-can-help-cards img {
+    width: 200px;
+}
+
+.shopping-saving {
+    background-image: url('https://www.arielquotes.com/wp-content/uploads/2021/09/FOOTERBG.jpg ');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.shopping-saving-info {
+    min-width: 500px;
+    padding: 65px;
+    padding-top: 200px;
+    margin-left: 50%;
+}
+
+.shopping-saving-info h3 {
+    font-size: 40px;
+}
+
+.shopping-saving-info p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.faq {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.faq .faq-img-container {
+    text-align: center;
+}
+
+.faq .faq-img-container h3 {
+    margin: 30px;
+    font-weight: 700;
+}
+
+.faq-img {
+    width: 200px;
+}
+
+.faq .card {
+    margin-top: 50px;
+}
