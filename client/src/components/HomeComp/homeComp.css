@@ -23,12 +23,17 @@
 }
 
 .free-quote-btn {
-    padding: 8px;
+    padding: 8px 20px 8px 20px;
     border-radius: 20px;
     font-weight: 600;
     color: white;
-    background-color: #273043;
+    background-color: rgb(255, 0, 98);
     margin-top: 7px;
+    border: none;
+}
+
+.free-quote-btn:hover {
+    background-color: rgb(253, 91, 153);
 }
 
 .home-icons section {
@@ -38,18 +43,57 @@
     margin-right: 100px;
 }
 
-.card {
+.card-icons {
     width: 100px;
     height: 100px;
     border: none !important;
     position: relative;
 }
 
-.card img {
+.icons {
     filter:brightness(0);
     position: absolute;
     width: 100%;
     top: 50%;
     bottom: 50%;
     transform: translate(0, -50%);
+}
+
+.we-can-help {
+    text-align: center;
+    padding: 50px;
+}
+
+.we-can-help h2 {
+    color: rgb(255, 0, 98);
+}
+
+.we-can-help > p {
+    font-weight: 300;
+    color: rgb(105, 105, 105);
+}
+
+.we-can-help-cards {
+    width: 50%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.we-can-help-cards div {
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.we-can-help-cards div:hover {
+    background-color: rgb(94, 118, 255);
+    color: white;
+}
+
+.we-can-help-cards img {
+    width: 200px;
 }
