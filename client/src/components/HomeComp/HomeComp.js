@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './homeComp.css';
 
 import HealthInsurance from './health-insurance.png';
@@ -12,8 +12,12 @@ import MoO from './MoO_Horiz_white_rev_color.png';
 import PacificLife from './PacificLife-logo-300x56-1.png';
 import Protective from './Protective-logo.png';
 import Prudential from './Prudential-logo.png';
+import FAQ from './faq.png';
 
 const HomeComp = () => {
+
+  const [equ, setEqu] = useState('+')
+
   return (
     <div>
 
@@ -63,21 +67,61 @@ const HomeComp = () => {
         <section className='we-can-help-cards'>
           <div className='card'>
             <img src={HealthCare} alt="health care" />
-            <br/>
+            <br />
             <p>Life Insurance</p>
           </div>
           <div className='card'>
             <img src={HealthInsurance} alt="health insurance" />
-            <br/>
+            <br />
             <p>Medicare Insurance</p>
           </div>
         </section>
       </div>
 
-      <div>
-        {/* next photo link */}
-        {/* https://www.arielquotes.com/wp-content/uploads/2021/09/FOOTERBG.jpg */}
+      <div className='shopping-saving'>
+        <div className='shopping-saving-info'>
+          <h3>WE DO THE SHOPPING.</h3>
+          <h3>YOU DO THE SAVING.</h3>
+          <p>Our process is simple, hassle-free and takes just minutes. We instantly shop and compare hundreds of options from highly rated, trusted insurance brands to find the best rates available for you.</p>
+          <button className='free-quote-btn'>Get Your Free Quote</button>
+        </div>
       </div>
+
+      <section className='faq'>
+        <div className='faq-img-container'>
+          <img className='faq-img' src={FAQ} alt="faq" />
+          <h3>FREQUENTLY ASKED QUESTIONS</h3>
+        </div>
+        <div className='card'>
+          <div className="card-header">
+            <h4>{equ} Why should I shop through ArielQuote?</h4>
+          </div>
+          <div id='cards-body' className="card-body">
+            <p>ArielQuote can be your one-stop for life, auto insurance, home insurance, Medicare insurance and more! Our difference is our passion to protect families—like yours—and match you with the best carrier for you. We can compare coverage and prices from multiple companies in the time it takes you to get a quote from one. We shop some of the most trusted insurance companies on your behalf, making the insurance buying process easy and convenient for you.</p>
+          </div>
+        </div>
+        <div className='card'>
+          <div className="card-header">
+            <h4>{equ} Does ArielQuote provide free quotes?</h4>
+          </div>
+          <div id='cards-body' className="card-body">
+            <p>Yes, the quote is always free at ArielQuote and there's never an obligation to purchase or enroll. To ensure you—the consumer—receives unbiased quotes and advice, our ArielQuote licensed sales agents are also not paid differently based on the carrier you choose. So although we receive a commission from the insurance company each time a policy is sold, we don't rank or present specific insurance companies based on compensation.</p>
+          </div>
+        </div>
+        <div className='card'>
+          <div className="card-header">
+            <h4>{equ} What companies does ArielQuote represent?</h4>
+          </div>
+          <div id='cards-body' className="card-body">
+            <p>SelectQuote represents more than 50 highly rated life, auto, home, and Medicare insurance carriers. See the full lists of carriers below:</p>
+            <ul>
+              <li>Life Insurance Companies</li>
+              <li>Auto & Home Insurance Companies</li>
+              <li>Medicare Insurance Companies</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
     </div>
   )

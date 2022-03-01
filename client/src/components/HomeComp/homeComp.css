@@ -39,8 +39,8 @@
 .home-icons section {
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+    max-width: 60%;
+    margin: 50px auto;
 }
 
 .card-icons {
@@ -96,4 +96,49 @@
 
 .we-can-help-cards img {
     width: 200px;
+}
+
+.shopping-saving {
+    background-image: url('https://www.arielquotes.com/wp-content/uploads/2021/09/FOOTERBG.jpg ');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.shopping-saving-info {
+    min-width: 500px;
+    padding: 65px;
+    padding-top: 200px;
+    margin-left: 50%;
+}
+
+.shopping-saving-info h3 {
+    font-size: 40px;
+}
+
+.shopping-saving-info p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.faq {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.faq .faq-img-container {
+    text-align: center;
+}
+
+.faq .faq-img-container h3 {
+    margin: 30px;
+    font-weight: 700;
+}
+
+.faq-img {
+    width: 200px;
+}
+
+.faq .card {
+    margin-top: 50px;
 }

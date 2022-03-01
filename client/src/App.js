@@ -5,6 +5,7 @@ import Contact from './pages/Contact';
 import HomePage from './pages/HomePage';
 import LifeInsurance from './pages/LifeInsurance';
 import Medicare from './pages/Medicare';
+import FooterComp from './components/FooterComp/FooterComp';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path='/medicare' element={<Medicare />} />
           <Route exact path='/contact-us' element={<Contact />} />
         </Routes>
+        <FooterComp/>
       </Router>
     </div>
   );
