@@ -18,7 +18,7 @@ const FooterComp = () => {
             <p><Link to='/'>FAQ's</Link></p>
             <p><Link to='/licensing'>Licensing</Link></p>
             <p><Link to='/contact-us'>Contact Us</Link></p>
-            <p><Link to='/'>Get A Quote</Link></p>
+            <p><Link to='/get-a-quote'>Get A Quote</Link></p>
           </div>
           <div>
             <h3>Give Us A Call</h3>

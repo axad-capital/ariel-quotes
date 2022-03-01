@@ -6,6 +6,9 @@ import HomePage from './pages/HomePage';
 import LifeInsurance from './pages/LifeInsurance';
 import Medicare from './pages/Medicare';
 import FooterComp from './components/FooterComp/FooterComp';
+import GetQuoteComp from './components/GetQuoteComp/GetQuoteComp';
+import LifeQuoteComp from './components/QuoteComp/LifeQuoteComp';
+import MedicareQuoteComp from './components/QuoteComp/MedicareQuoteComp';
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
           <Route exact path='/life-insurance' element={<LifeInsurance />} />
           <Route exact path='/medicare' element={<Medicare />} />
           <Route exact path='/contact-us' element={<Contact />} />
+          <Route exact path='/get-a-quote' element={<GetQuoteComp />} />
+          <Route exact path='/life-insurance-quote' element={<LifeQuoteComp />} />
+          <Route exact path='/medicare-quote' element={<MedicareQuoteComp />} />
         </Routes>
         <FooterComp/>
       </Router>
