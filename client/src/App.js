@@ -9,6 +9,8 @@ import FooterComp from './components/FooterComp/FooterComp';
 import GetQuoteComp from './components/GetQuoteComp/GetQuoteComp';
 import LifeQuoteComp from './components/QuoteComp/LifeQuoteComp';
 import MedicareQuoteComp from './components/QuoteComp/MedicareQuoteComp';
+import LifeTermView from './components/LifeInsuranceComp/LifeTermView';
+import LifeFinalExpense from './components/LifeInsuranceComp/LifeFinalExpense';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route exact path='/get-a-quote' element={<GetQuoteComp />} />
           <Route exact path='/life-insurance-quote' element={<LifeQuoteComp />} />
           <Route exact path='/medicare-quote' element={<MedicareQuoteComp />} />
+          <Route exact path='/life-insurance/term-view' element={<LifeTermView />} />
+          <Route exact path='/life-insurance/final-expense' element={<LifeFinalExpense />} />
         </Routes>
         <FooterComp/>
       </Router>

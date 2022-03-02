@@ -1,0 +1,142 @@
+.life-container {
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.life-container-info {
+    width: 40%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.life-container img {
+    border-radius: 50%;
+    width: 50%;
+    max-width: 500px;
+    margin-left: 50px;
+    margin-right: 5%;
+}
+
+.life-container-info h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.life-container-info p {
+    color: rgb(255, 0, 98);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.what-is-container {
+    display: flex;
+    width: 85%;
+    margin: 50px auto;
+}
+
+.what-is span {
+    font-weight: 700;
+    color: rgb(255, 0, 98);
+}
+
+.what-is h2 {
+    font-weight: 700;
+}
+
+.what-is img {
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.what-is p {
+    width: 85%;
+    margin-top: 20px;
+}
+
+.how-much {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.how-much span {
+    color: rgb(16, 148, 255);
+}
+
+.how-much p {
+    margin-top: 20px;
+}
+
+.different-types {
+    background-image: url('../medicarecost.jpg');
+    background-size: cover;
+    height: 600px;
+    margin-top: 80px;
+}
+
+.different-types-info {
+    width: 60%;
+    padding: 50px;
+}
+
+.different-types-info span {
+    font-weight: 700;
+    color: rgb(0, 105, 190);
+}
+
+.different-types-info h2 {
+    margin-bottom: 50px;
+}
+
+.different-types ul {
+    padding-left: 0;
+}
+
+.different-types ul li {
+    list-style-type: none;
+    color: rgb(255, 0, 98);
+    font-weight: 600;
+}
+
+.testimonial-container {
+    background-color: rgb(228, 253, 255);
+    padding: 50px;
+}
+
+.testimonial {
+    width: 400px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.testimonial h1 {
+    color: rgb(0, 105, 190);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.testimonial p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.you-can-save {
+    background-image: url('../111.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.you-can-save-info {
+    color: white;
+    width: 50%;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.you-can-save-info img {
+    width: 200px;
+    margin-bottom: 20px;
+}
