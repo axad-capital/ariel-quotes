@@ -1,5 +1,5 @@
 .home-header {
-    background-image: url('https://www.arielquotes.com/wp-content/uploads/2021/09/Untitled-1.jpg');
+    background-image: url('./header-home.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;
@@ -99,7 +99,7 @@
 }
 
 .shopping-saving {
-    background-image: url('https://www.arielquotes.com/wp-content/uploads/2021/09/FOOTERBG.jpg ');
+    background-image: url('./FOOTERBG.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;

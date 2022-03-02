@@ -1,5 +1,5 @@
 import React from 'react';
-import './lifeInsuranceComp.css';
+import './styles/lifeInsuranceComp.css'
 import WILI from './wili.jpg';
 
 import LifeBG from './lifeinusrancebg56.jpg';
@@ -12,7 +12,7 @@ const LifeOverView = () => {
         <div className='life-container-info'>
           <h2>We Shop. You Save!</h2>
           <p>Trust One of Best Term Life sales agency to find you the best policy at the right price.</p>
-          <button onClick={() => window.location.href = '/get-a-quote'} className='free-quote-btn'>Get Your Free Quote</button>
+          <button onClick={() => window.location.href = '/life-insurance-quote'} className='free-quote-btn'>Get Your Free Quote</button>
         </div>
         <img src={LifeBG} alt="life insurance" />
       </div>
@@ -32,7 +32,7 @@ const LifeOverView = () => {
           <br />
           <h2>How It Works.</h2>
           <p>Researching and gathering life insurance quotes can be a long, complex process, but ArielQuotes breakthrough technology makes it quick and easy. Within minutes, an agent can give you unbiased price comparisons from 10+ trusted insurance companies.</p>
-          <button onClick={() => window.location.href = '/get-a-quote'} className='free-quote-btn'>Get Your Free Quote</button>
+          <button onClick={() => window.location.href = '/life-insurance-quote'} className='free-quote-btn'>Get Your Free Quote</button>
         </div>
       </div>
 
@@ -47,7 +47,7 @@ const LifeOverView = () => {
             <li>✔️ Whole life insurance</li>
             <li>✔️ Final expenses</li>
           </ul>
-          <button onClick={() => window.location.href = '/get-a-quote'} className='free-quote-btn'>Get Your Free Quote</button>
+          <button onClick={() => window.location.href = '/life-insurance-quote'} className='free-quote-btn'>Get Your Free Quote</button>
         </div>
       </div>
 

@@ -1,0 +1,89 @@
+.term-header-container {
+    display: flex;
+}
+
+.term-header-img {
+    width: 50%;
+}
+
+.term-header-img img {
+    border-radius: 50%;
+    width: 80%;
+    padding: 50px;
+}
+
+.term-header-info {
+    padding-top: 10%;
+}
+
+.term-header-info h1 {
+    font-weight: 700;
+}
+
+.term-header-info p {
+    width: 80%;
+}
+
+.what-is-term-container {
+    background-image: url('../whatIsTerm.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.what-is-term-info {
+    width: 50%;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.what-is-term-info h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.what-is-term-info p {
+    font-weight: 500;
+}
+
+.learn-more-term-container {
+    padding: 80px;
+    background-color: rgb(241, 255, 255);
+}
+
+.learn-more-term-container h4 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.learn-more-term-container span {
+    color: rgb(255, 0, 98);
+}
+
+.red {
+    color: red;
+    font-size: 40px !important;
+    margin-right: 20px;
+}
+
+.term-icon-container {
+    display: flex;
+}
+
+.term-column {
+    width: 40%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.term-column > div {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.term-footer {
+    width: 80%;
+    margin: 20px auto;
+}
