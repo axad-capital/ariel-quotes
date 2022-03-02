@@ -1,0 +1,16 @@
+.final-header {
+    background-image: url('../final-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+.final-header div {
+    width: 40%;
+    min-width: 300px;
+    max-width: 600px;
+    margin-left: 55%;
+    padding-right: 30px;
+    padding-top: 150px;
+}
