@@ -23,3 +23,23 @@
     font-weight: 500;
     font-size: 13px;
 }
+
+@media screen and (max-width: 900px) {
+    .footer-container {
+        padding: 20px;
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .footer-container div {
+        margin: 5px;
+    }
+
+    .footer-container h3 {
+        font-size: 15px;
+    }
+
+    .footer-container a {
+        font-size: 10px;
+    }
+}
