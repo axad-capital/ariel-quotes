@@ -14,3 +14,117 @@
     padding-right: 30px;
     padding-top: 150px;
 }
+
+.final-main-info-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.final-main-info-container .card {
+    background-color: rgb(234, 241, 255);
+    border-radius: 20px;
+}
+
+.final-main-info-container h2 {
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.final-main-info-container p {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(104, 104, 104);
+}
+
+.final-expense-top {
+    display: flex;
+    text-align: center;
+}
+
+.final-top-info {
+    width: 50%;
+    padding: 50px;
+    margin: 50px;
+}
+
+.couple-img {
+    width: 50%;
+    margin: 50px;
+}
+
+.couple-img img {
+    border-radius: 50%;
+    width: 80%;
+}
+
+.final-expense-bottom {
+    display: flex;
+    text-align: center;
+}
+
+.final-bottom-info {
+    width: 50%;
+    padding: 50px;
+    margin: 50px;
+}
+
+.everyone-top-container {
+    background-color: rgb(255, 202, 202);
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.everyone-bottom-container {
+    padding: 50px;
+}
+
+.everyone-top {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.everyone-top h2, .everyone-bottom h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.everyone-bottom {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.everyone-bottom-container button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1220px) {
+    
+    .final-header div {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px;
+        font-weight: 700;
+        background-color: rgb(227, 244, 255, .4);
+        color: black;
+        border-radius: 10px;
+    }
+
+    .final-main-info-container {
+        width: 100%;
+    }
+
+    .final-expense-top {
+        display: block;
+    }
+
+    .final-expense-bottom {
+        display: block;
+    }
+
+    .final-top-info, .couple-img, .final-bottom-info {
+        margin: 50px auto;
+        width: 80%;
+    }
+}
