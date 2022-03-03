@@ -1,8 +1,8 @@
 import React from 'react';
 import './medicareComp.css';
-import LGLogo from './LG-logo.png';
-import ALogo from './A-logo.png';
-import TrueLogo from './tru-logo.png';
+// import LGLogo from './LG-logo.png';
+// import ALogo from './A-logo.png';
+// import TrueLogo from './tru-logo.png';
 import Clip from './clipb.png'
 import Umbrella from './umbrella.png'
 
@@ -17,11 +17,11 @@ const MedOverView = () => {
         </div>
       </header>
 
-      <div className='med-logo-container'>
+      {/* <div className='med-logo-container'>
         <img src={ALogo} alt="A logo" />
         <img src={TrueLogo} alt="true logo" />
         <img src={LGLogo} alt="lg Logo" />
-      </div>
+      </div> */}
 
       <div className='med-sup-adv'>
         <div className='card med-sup-adv-info'>
