@@ -1,8 +1,8 @@
 import React from 'react';
 import './medicareComp.css';
-import LGLogo from './LG-logo.png';
-import ALogo from './A-logo.png';
-import TrueLogo from './tru-logo.png';
+import LGLogo from './legalglogo.png';
+import ALogo from './amlogo.png';
+import TrueLogo from './trulogo.png';
 import Clip from './clipb.png'
 import Umbrella from './umbrella.png'
 

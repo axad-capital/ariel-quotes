@@ -2,8 +2,8 @@ import React from 'react';
 import './lifeInsuranceComp.css'
 import WILI from './wili.jpg';
 
-import LifeBG from './lifeinusrancebg56.jpg';
-import ProgressBar from './progress-bar.png'
+import LifeBG from './lifeinusrancebg.jpg';
+import ProgressBar from './progressbar.png'
 
 const LifeOverView = () => {
   return (
