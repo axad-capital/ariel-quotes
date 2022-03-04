@@ -1,6 +1,6 @@
 import React from 'react';
 import './getQuoteComp.css';
-import HealthInsurance from '../HomeComp/health-insurance.png';
+import HealthInsurance from '../HomeComp/healthinsurance.png';
 import HealthCare from '../HomeComp/healthcare.png';
 
 const GetQuoteComp = () => {
