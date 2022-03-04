@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './homeComp.css';
 
 import HealthInsurance from './healthinsurance.png';
@@ -15,8 +15,6 @@ import Prudential from './prudentiallogo.png';
 import FAQ from './faq.png';
 
 const HomeComp = () => {
-
-  const [equ, setEqu] = useState('+');
 
   return (
     <div>
@@ -94,7 +92,7 @@ const HomeComp = () => {
         </div>
         <div className='card'>
           <div className="card-header">
-            <h4>{equ} Why should I shop through ArielQuote?</h4>
+            <h4>+ Why should I shop through ArielQuote?</h4>
           </div>
           <div id='cards-body' className="card-body">
             <p>ArielQuote can be your one-stop for life, auto insurance, home insurance, Medicare insurance and more! Our difference is our passion to protect families—like yours—and match you with the best carrier for you. We can compare coverage and prices from multiple companies in the time it takes you to get a quote from one. We shop some of the most trusted insurance companies on your behalf, making the insurance buying process easy and convenient for you.</p>
@@ -102,7 +100,7 @@ const HomeComp = () => {
         </div>
         <div className='card'>
           <div className="card-header">
-            <h4>{equ} Does ArielQuote provide free quotes?</h4>
+            <h4>+ Does ArielQuote provide free quotes?</h4>
           </div>
           <div id='cards-body' className="card-body">
             <p>Yes, the quote is always free at ArielQuote and there's never an obligation to purchase or enroll. To ensure you—the consumer—receives unbiased quotes and advice, our ArielQuote licensed sales agents are also not paid differently based on the carrier you choose. So although we receive a commission from the insurance company each time a policy is sold, we don't rank or present specific insurance companies based on compensation.</p>
@@ -110,7 +108,7 @@ const HomeComp = () => {
         </div>
         <div className='card'>
           <div className="card-header">
-            <h4>{equ} What companies does ArielQuote represent?</h4>
+            <h4>+ What companies does ArielQuote represent?</h4>
           </div>
           <div id='cards-body' className="card-body">
             <p>SelectQuote represents more than 50 highly rated life, auto, home, and Medicare insurance carriers. See the full lists of carriers below:</p>
