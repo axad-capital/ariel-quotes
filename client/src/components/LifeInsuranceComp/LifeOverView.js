@@ -6,6 +6,7 @@ import './lifeInsuranceComp.css'
 // import ProgressBar from './progressbar.png'
 
 const LifeOverView = () => {
+  
   return (
     <div>
       <div className='life-container'>
