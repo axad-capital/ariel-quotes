@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/lifeTermView.css';
+import './lifeTermView.css';
 import Term from './term.jpg'
 import ContentPasteGoIcon from '@mui/icons-material/ContentPasteGo';
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital';

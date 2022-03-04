@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/lifeFinalExpense.css';
+import './lifeFinalExpense.css';
 import Couple from './couple.jpg';
 
 const LifeFinalExpense = () => {

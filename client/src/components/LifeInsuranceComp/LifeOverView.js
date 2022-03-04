@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/lifeInsuranceComp.css'
+import './lifeInsuranceComp.css'
 import WILI from './wili.jpg';
 
 import LifeBG from './lifeinusrancebg56.jpg';

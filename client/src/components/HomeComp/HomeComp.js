@@ -1,17 +1,17 @@
 import React, {useState} from 'react';
 import './homeComp.css';
 
-import HealthInsurance from './health-insurance.png';
+import HealthInsurance from './healthinsurance.png';
 import HealthCare from './healthcare.png';
 
-import AIG from './AIG-logo.png';
-import GlobeLife from './GlobeLife-logo.png';
-import LFG from './LFG-logo.png';
-import LGWhite from './LG-white-logo.png';
-import MoO from './MoO_Horiz_white_rev_color.png';
-import PacificLife from './PacificLife-logo-300x56-1.png';
-import Protective from './Protective-logo.png';
-import Prudential from './Prudential-logo.png';
+import AIG from './aiglogo.png';
+import GlobeLife from './globelifelogo.png';
+import LFG from './lfglogo.png';
+import LGWhite from './lgwhitlogo.png';
+import MoO from './revcolor.png';
+import PacificLife from './pacific.png';
+import Protective from './protectivelogo.png';
+import Prudential from './prudentiallogo.png';
 import FAQ from './faq.png';
 
 const HomeComp = () => {
