@@ -7,7 +7,7 @@ import HealthCare from './healthcare.png';
 import AIG from './aiglogo.png';
 import GlobeLife from './globelifelogo.png';
 import LFG from './lfglogo.png';
-import LGWhite from './lgwhitlogo.png';
+import LGWhite from './lgwhitelogo.png';
 import MoO from './revcolor.png';
 import PacificLife from './pacific.png';
 import Protective from './protectivelogo.png';
