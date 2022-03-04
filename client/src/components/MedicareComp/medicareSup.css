@@ -1,0 +1,148 @@
+.med-sup-header {
+    background-image: url('./supplementheader.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.med-sup-header-info {
+    width: 500px;
+    padding: 65px;
+    margin-left: 50%;
+}
+
+.med-sup-what-is-container {
+    width: 90%;
+    margin: 100px auto;
+}
+
+.med-sup-what-is-container h2 {
+    font-weight: 700;
+    color: rgb(94, 118, 255);
+    margin-bottom: 30px;
+}
+
+.med-sup-what-is-container h6 {
+    font-weight: 700;
+    color: rgb(255, 0, 98);
+}
+
+.med-sup-what-is-container p {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(87, 87, 87);
+}
+
+.med-sup-benefits {
+    background-color: rgb(226, 226, 226);
+    color: rgb(90, 0, 0);
+}
+
+.med-sup-benefits-info {
+    width: 75%;
+    padding: 80px;
+}
+
+.med-sup-benefits-info p {
+    font-weight: 500;
+}
+
+.med-sup-benefits-info h2 {
+    color: rgb(43, 0, 100);
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.consider-info h2, .consider-info p {
+    text-align: center;
+    font-weight: 700;
+}
+
+.consider-info h2 {
+    margin-top: 80px;
+}
+
+.consider-info p {
+    margin: 30px;
+    color: rgb(255, 0, 98);
+}
+
+.consider-info-categories {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.consider-info-categories div {
+    margin: 30px;
+}
+
+.consider-info-categories h6 {
+    font-weight: 700;
+}
+
+.old-people {
+    border-radius: 50%;
+    width: 500px;
+}
+
+.sup-cost-container {
+    display: flex;
+}
+
+.sup-cost-container div {
+    width: 50%;
+}
+
+.sup-cost-container h4 {
+    font-weight: 700;
+}
+
+.sup-cost-container :first-child {
+    margin: 50px;
+}
+
+@media screen and (max-width: 1140px) {
+    .sup-cost-container {
+        display: block;
+        text-align: center;
+    }
+
+    .sup-cost-container :first-child {
+        margin: 30px auto;
+    }
+
+    .sup-cost-container div {
+        margin: 0 auto;
+    }
+
+    .old-people {
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 870px) {
+    .med-sup-header-info {
+        margin-left: 60px;
+        width: 80%;
+        padding: 55px;
+        font-weight: 800;
+    }
+
+    .med-sup-benefits {
+        text-align: center;
+    }
+
+    .med-sup-benefits-info {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .consider-info-categories {
+        display: block;
+        width: 100%;
+    }
+}

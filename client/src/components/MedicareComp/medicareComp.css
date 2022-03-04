@@ -96,9 +96,15 @@
 @media screen and (max-width: 870px) {
     .med-header-info {
         margin-left: 60px;
-        width: 300px;
+        width: 80%;
         padding: 55px;
+        font-weight: 800;
     }
+
+    .med-header-info h1 {
+        font-weight: 700;
+    }
+
     .med-logo-container img {
         width: 70px;
         margin: 30px;
