@@ -1,5 +1,5 @@
 .final-header {
-    background-image: url('../final-header.jpg');
+    background-image: url('./final-header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;

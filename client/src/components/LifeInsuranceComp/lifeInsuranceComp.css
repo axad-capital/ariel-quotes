@@ -70,7 +70,7 @@
 }
 
 .different-types {
-    background-image: url('../medicarecost.jpg');
+    background-image: url('./medicarecost.jpg');
     background-size: cover;
     height: 600px;
     margin-top: 80px;
@@ -123,7 +123,7 @@
 }
 
 .you-can-save {
-    background-image: url('../111.jpg');
+    background-image: url('./111.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
