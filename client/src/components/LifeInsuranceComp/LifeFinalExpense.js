@@ -1,6 +1,6 @@
 import React from 'react';
 import './lifeFinalExpense.css';
-// import Couple from './couple.jpg';
+import Couple from './couple.jpg';
 
 const LifeFinalExpense = () => {
     return (
@@ -20,7 +20,7 @@ const LifeFinalExpense = () => {
                         <p>Thinking about final expenses can be difficult, but it's important to plan for you and your family's future. ArielQuote is here to help you understand the benefits of final expense insurance and find the right coverage for you and your family.</p>
                     </div>
                     <div className='couple-img'>
-                        {/* <img src={Couple} alt="couple reasearching" /> */}
+                        <img src={Couple} alt="couple reasearching" />
                     </div>
                 </div>
 
