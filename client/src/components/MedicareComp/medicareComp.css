@@ -59,6 +59,40 @@
     color: white;
 }
 
+.oldbg {
+    background-image: url('./oldbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.oldbg h3 {
+    color: white;
+}
+
+.med-testimonial {
+    background-color: rgb(181, 201, 255);
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.med-testimonial-info {
+    text-align: center;
+    width: 300px;
+    margin: 100px auto;
+    color: white;
+}
+
+.testimonial-quote {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.which-med {
+    width: 60%;
+    padding: 30px;
+}
+
 @media screen and (max-width: 870px) {
     .med-header-info {
         margin-left: 60px;
