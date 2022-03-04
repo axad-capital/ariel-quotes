@@ -69,12 +69,12 @@
     margin-top: 20px;
 }
 
-.different-types {
+/* .different-types {
     background-image: url('./medicarecost.jpg');
     background-size: cover;
     height: 600px;
     margin-top: 80px;
-}
+} */
 
 .different-types-info {
     width: 60%;
@@ -122,12 +122,12 @@
     font-weight: 500;
 }
 
-.you-can-save {
+/* .you-can-save {
     background-image: url('./fam.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
-}
+} */
 
 .you-can-save-info {
     color: white;

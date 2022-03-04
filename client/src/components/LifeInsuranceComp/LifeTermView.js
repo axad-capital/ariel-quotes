@@ -1,6 +1,5 @@
 import React from 'react';
 import './lifeTermView.css';
-import Term from './term.jpg'
 import ContentPasteGoIcon from '@mui/icons-material/ContentPasteGo';
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
 import PaymentIcon from '@mui/icons-material/Payment';
@@ -8,12 +7,14 @@ import PaymentsIcon from '@mui/icons-material/Payments';
 import GiteIcon from '@mui/icons-material/Gite';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 
+// import Term from './term.jpg'
+
 const LifeTermView = () => {
     return (
         <div>
             <div className='term-header-container'>
                 <div className='term-header-img'>
-                    <img src={Term} alt="term" />
+                    {/* <img src={Term} alt="term" /> */}
                 </div>
                 <div className="term-header-info">
                     <h1>Why Wait To Protect Your Family?</h1>

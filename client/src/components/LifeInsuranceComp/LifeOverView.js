@@ -1,9 +1,9 @@
 import React from 'react';
 import './lifeInsuranceComp.css'
-import WILI from './wili.jpg';
 
-import LifeBG from './lifeinusrancebg.jpg';
-import ProgressBar from './progressbar.png'
+// import WILI from './wili.jpg';
+// import LifeBG from './lifeinusrancebg.jpg';
+// import ProgressBar from './progressbar.png'
 
 const LifeOverView = () => {
   return (
@@ -14,13 +14,13 @@ const LifeOverView = () => {
           <p>Trust One of Best Term Life sales agency to find you the best policy at the right price.</p>
           <button onClick={() => window.location.href = '/life-insurance-quote'} className='free-quote-btn'>Get Your Free Quote</button>
         </div>
-        <img src={LifeBG} alt="life insurance" />
+        {/* <img src={LifeBG} alt="life insurance" /> */}
       </div>
 
       <div className='what-is-container'>
         <div className='what-is'>
           <h2>What is Life Insurance?</h2>
-          <img src={WILI} alt="what is life insurance" />
+          {/* <img src={WILI} alt="what is life insurance" /> */}
           <p>In simple terms, <span>life insurance is an affordable way to protect your family financially</span> in the event you're not there to take care of them. Life insurance can help with things like paying the mortgage, college tuition, final expenses and more.</p>
           <p>Figuring out what life insurance is right for you can seem complicated, but that's what we're here for. ArielQuotes life insurance agents have the answers you need to make the right decision for you and your family.</p>
         </div>
@@ -61,7 +61,7 @@ const LifeOverView = () => {
 
       <div className='you-can-save'>
         <div className="you-can-save-info">
-          <img src={ProgressBar} alt="progress bar" />
+          {/* <img src={ProgressBar} alt="progress bar" /> */}
           <p>You're just a few steps away from finding out how much</p>
           <h4>YOU CAN SAVE!</h4>
           <button onClick={() => window.location.href = '/get-a-quote'} className='free-quote-btn'>Get Your Free Quote</button>
