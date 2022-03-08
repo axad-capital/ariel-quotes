@@ -87,3 +87,38 @@
     width: 80%;
     margin: 20px auto;
 }
+
+@media screen and (max-width: 870px) {
+    .what-is-term-info {
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    .term-icon-container {
+        display: block;
+        width: 100%;
+    }
+
+    .term-column > div {
+        display: block;
+    }
+
+    .learn-more-term-container {
+        padding: 0;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .term-column {
+        padding: 0;
+    }
+
+    .red {
+        margin-right: 0;
+    }
+
+    .term-footer {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
