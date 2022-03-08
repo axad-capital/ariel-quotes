@@ -1,0 +1,122 @@
+.med-adv-header {
+    background-image: url('./medadvheader.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.med-adv-header-info {
+    width: 500px;
+    padding: 65px;
+    margin-left: 50%;
+}
+
+.adv-what-is {
+    width: 80%;
+    max-width: 700px;
+    margin: 100px auto;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(94, 94, 94);
+}
+
+.adv-what-is h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.adv-compare {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.adv-card-container {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.adv-card {
+    border-bottom: 1px solid rgb(196, 196, 196);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.adv-card :first-child :nth-child(2) {
+    font-weight: 600;
+}
+
+.adv-benefits-container {
+    margin-top: 50px;
+    background-color: rgb(210, 210, 255);
+    font-weight: 600;
+}
+
+.adv-benefits-container h2, .adv-benefits-container h5 {
+    font-weight: 700;
+}
+
+.adv-benefits-info {
+    width: 70%;
+    padding: 100px;
+}
+
+.what-consider-container {
+    margin: 100px;
+    width: 90%;
+    font-weight: 600;
+}
+
+.what-consider-container h2, .what-consider-container h5 {
+    font-weight: 700;
+}
+
+.adv-cost-container {
+    background-image: url('./manonphone.jpg');
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pink {
+    color: rgb(255, 77, 106);
+}
+
+.adv-cost-info {
+    width: 50%;
+    min-width: 300px;
+    padding: 90px;
+}
+
+.adv-cost-info h1 {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 870px) {
+    .med-adv-header-info {
+        margin-left: 60px;
+        width: 80%;
+        padding: 55px;
+        font-weight: 800;
+    }
+    .adv-cost-info {
+        padding: 5px;
+        width: 90%;
+    }
+
+    .what-consider-container {
+        margin: 10px;
+    }
+
+    .adv-benefits-info {
+        padding: 20px;
+    }
+}

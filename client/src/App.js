@@ -12,6 +12,7 @@ import MedicareQuoteComp from './components/QuoteComp/MedicareQuoteComp';
 import LifeTermView from './components/LifeInsuranceComp/LifeTermView';
 import LifeFinalExpense from './components/LifeInsuranceComp/LifeFinalExpense';
 import MedicareSup from './components/MedicareComp/MedicareSup';
+import MedicareAdvantage from './components/MedicareComp/MedicareAdvantage';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route exact path='/life-insurance/term-view' element={<LifeTermView />} />
           <Route exact path='/life-insurance/final-expense' element={<LifeFinalExpense />} />
           <Route exact path='/medicare/medicare-supplement' element={<MedicareSup />} />
+          <Route exact path='/medicare/medicare-advantage' element={<MedicareAdvantage />} />
         </Routes>
         <FooterComp/>
       </Router>
