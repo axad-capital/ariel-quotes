@@ -118,4 +118,10 @@
         margin: 30px auto;
         width: 80%;
     }
+
+    .which-med {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
 }

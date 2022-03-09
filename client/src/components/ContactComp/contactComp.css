@@ -1,0 +1,63 @@
+.contact-container {
+    background-image: url('./contactusbg.jpg');
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-text {
+    max-width: 900px;
+    width: 50%;
+    min-width: 200px;
+    padding: 105px;
+    margin-left: 10%;
+}
+
+.contact-text h1 {
+    font-weight: 700;
+}
+
+.contact-info-container {
+    text-align: center;
+    margin: 50px;
+}
+
+.blue {
+    color: rgb(0, 140, 255);
+}
+
+.contact-info p {
+    font-weight: 600;
+    color: rgb(100, 100, 100);
+}
+
+.contact-info h5 {
+    font-weight: 700;
+}
+
+.contact-foot {
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: rgb(241, 241, 241);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.contact-foot h5 {
+    font-weight: 400;
+}
+
+@media screen and (max-width: 870px) {
+    .contact-text {
+        text-align: center;
+        width: 80%;
+        padding: 55px;
+    }
+
+    .contact-container {
+        height: 400px;
+    }
+}

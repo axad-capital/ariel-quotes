@@ -118,5 +118,12 @@
 
     .adv-benefits-info {
         padding: 20px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .adv-cost-info {
+        text-align: center;
+        margin: 30px auto;
     }
 }
